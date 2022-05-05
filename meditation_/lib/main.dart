@@ -42,10 +42,10 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   appState current_state = appState.text;
   String privateKey =
-      '30b00029643ce336b1874bbb6773ff94b6c578b2df03a8635eed8850f4b22d3c';
-  String rpcUrl = 'http://192.168.17.113:8545';
-  // String rpcUrl = 'https://kovan.infura.io/v3/5eddb680b6cf4ea0936f900b9269b4e9';
-  String contractAddress = "0x1A706554894e9EBd1e463F5d606193c4C5dA9C69";
+      '96e61ea5a49f785830522f4e1f195dfde1fab97ee816a62202168e597bdcbb70';
+  // String rpcUrl = 'http://192.168.17.113:8545';
+  String rpcUrl = 'https://kovan.infura.io/v3/5eddb680b6cf4ea0936f900b9269b4e9';
+  String contractAddress = "0x910C23D26b8Ab871a6c8c3570aBB0D2d381e3726";
   late Client httpClient;
   late Web3Client ethereumClient;
   String publicKey = "";
